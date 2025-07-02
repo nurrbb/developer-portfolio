@@ -189,7 +189,7 @@ The project demonstrated skills in embedded programming, sensor integration, rea
       title: "Volunteer Work",
       items: [
         {
-          title: "UpSchool Mentorship Program",
+          title: "Up School Mentorship Program",
           role: "Sof Skill Mentor",
           period: "2025 - Present",
           description: `As a Soft Skills Trainer at UP School, an edtech initiative dedicated to empowering women in technology, I deliver interactive sessions designed to enhance students’ personal growth, emotional intelligence, and professional effectiveness. 
@@ -214,7 +214,7 @@ Managed social responsibility projects including nursing home visits, orphanage 
       ],
     },
     projects: {
-      title: "Featured Projects",
+      title: "Projects",
       items: [
         {
           title: "Library Management System",
@@ -275,7 +275,7 @@ Managed social responsibility projects including nursing home visits, orphanage 
       title: "Hakkımda",
       content: `Backend geliştirme, yalnızca çalışan kodlar yazmak değil; karmaşık problemleri sadeleştirip işlevsel ve sürdürülebilir çözümler üretmektir.
 
-Java ve backend teknolojilerinde her gün ilerleyerek, yazdığım kodun hem makineye hem de sonraki geliştiricilere değer katmasını sağlıyorum. İyi kodun, bugünü olduğu kadar yarını da düşündüğüne inanırım.
+      Yazdığım kodun hem makineye hem de sonraki geliştiricilere değer katmasını sağlıyorum. İyi kodun, bugünü olduğu kadar yarını da düşündüğüne inanırım.
 
 “Neden” sorusunu sormaktan vazgeçmeyen, detayları anlamlandırıp onlardan verimli yollar üreten ve hataları gelişimin ayrılmaz bir parçası olarak gören bir geliştiriciyim.`,
     },
@@ -306,7 +306,7 @@ Spring Boot ile modüler mimariye sahip, koltuk rezervasyonu, fiyatlandırma alg
         },
         {
           title: "Enerjisa Toros Dağıtım A.Ş.",
-          role: "'Spark' Yaz Stajı - Takım Lideri",
+          role: "Stajer Mühendis - Takım Lideri",
           period: "Temmuz 2021 – Ağustos 2021",
           description: `“Büyük Veri ile Elektrik Dolandırıcılığı Önleme” projesinde, çapraz fonksiyonlu ekibe liderlik ederek hem teknik hem yönetsel becerilerimi geliştirdim. Endüstri mentorları ve ekip arkadaşlarıyla veri odaklı çözümler ürettik.
 
@@ -316,7 +316,7 @@ Elektrik dolandırıcılığını tespit etmek için istatistiksel analiz, kalı
         },
         {
           title: "EÜAŞ (Elektrik Üretim A.Ş.)",
-          role: "Mühendislik Stajyeri",
+          role: "Stajer Mühendis",
           period: "Ağu 2018 - Eylül 2018",
           description: `Hidroelektrik santral operasyonları ve Türkiye'nin yenilenebilir enerji altyapısına odaklanan yoğun bir mühendislik stajı tamamladım. HES işletme ilkeleri, verimlilik optimizasyonu ve şebeke entegrasyon stratejileri üzerine kapsamlı araştırma yürüttüm.
 
@@ -395,7 +395,7 @@ Proje, gömülü programlama, sensör entegrasyonu, gerçek zamanlı işleme ve 
       title: "Gönüllü Çalışmalar",
       items: [
         {
-          title: "UpSchool Mentorluk Programı",
+          title: "Up School Mentorluk Programı",
           role: "Soft Skill Mentoru",
           period: "2025 - Devam Ediyor",
           description: `Kadınları teknoloji dünyasında daha güçlü kılmayı hedefleyen bir eğitim teknolojileri girişimi olan UP School’da Soft Skill Mentoru olarak görev yapıyorum. Bu kapsamda, katılımcıların kişisel gelişimlerini, duygusal zekalarını ve profesyonel yetkinliklerini artırmaya yönelik interaktif oturumlar yürütüyorum.
@@ -417,7 +417,7 @@ STEM alanlarında cinsiyet eşitliğini desteklemek amacıyla düzenlediğimiz �
       ],
     },
     projects: {
-      title: "Öne Çıkan Projeler",
+      title: "Projeler",
       items: [
         {
           title: "Libris - Kütüphane Yönetim Sistemi",
@@ -441,14 +441,6 @@ STEM alanlarında cinsiyet eşitliğini desteklemek amacıyla düzenlediğimiz �
             "Arduino Nano ve TCS3200 renk sensörleri kullanarak otomatik endüstriyel sıralama sistemi. Gerçek zamanlı renk algılama, sınıflandırma algoritmaları ve hassas nesne konumlandırması için servo motor kontrolü uygular.",
           tech: ["Arduino", "C++", "Sensörler", "Servo Kontrolü", "Gerçek Zamanlı İşleme"],
           github: "#",
-          demo: "#",
-        },
-        {
-          title: "Elektrik Dolandırıcılığı Tespit Sistemi",
-          description:
-            "Elektrik tüketim anomalilerini tespit etmek ve dolandırıcılığı önlemek için büyük veri analizi çözümü. Şüpheli kullanım kalıplarını belirlemek için istatistiksel analiz ve kalıp tanımayı kullanır.",
-          tech: ["Büyük Veri", "Analitik", "Kalıp Tanıma", "İstatistiksel Analiz"],
-          github: "#",
           demo: "https://drive.google.com/drive/folders/1Nr52EKa43xApjjxBK-IsSKV1HU4VVZkA",
         },
       ],
@@ -469,35 +461,33 @@ STEM alanlarında cinsiyet eşitliğini desteklemek amacıyla düzenlediğimiz �
 }
 
 // Enhanced scroll animations with more sophisticated effects
-function useScrollAnimation() {
+export function useScrollAnimation(dependencies: any[] = []) {
   const [visibleElements, setVisibleElements] = useState(new Set())
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          setVisibleElements((prev) => {
-            const newSet = new Set(prev)
-            if (entry.isIntersecting) {
-              newSet.add(entry.target.id)
-            } else {
-              newSet.delete(entry.target.id)
-            }
-            return newSet
-          })
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        setVisibleElements((prev) => {
+          const newSet = new Set(prev)
+          if (entry.isIntersecting) {
+            newSet.add(entry.target.id)
+          } else {
+            newSet.delete(entry.target.id)
+          }
+          return newSet
         })
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    )
+      })
+    }, { threshold: 0.1 })
 
     const elements = document.querySelectorAll("[data-animate]")
     elements.forEach((el) => observer.observe(el))
 
     return () => observer.disconnect()
-  }, [])
+  }, dependencies)
 
   return visibleElements
 }
+
 
 
 // Enhanced sliding text animation with scroll trigger
@@ -575,7 +565,7 @@ export default function Portfolio() {
     return () => clearTimeout(timer)
   }, [])
 
-  const visibleElements = useScrollAnimation()
+const visibleElements = useScrollAnimation([mediumArticles.length])
 
   const t = translations[language]
 
@@ -1543,7 +1533,7 @@ export default function Portfolio() {
                   </div>
                 ) : (
                   <div className="space-y-6">
-                    {mediumArticles.map((article, index) => (
+                    {mediumArticles.slice(0, 4).map((article, index) => (
                       <div
                         key={index}
                         data-animate
