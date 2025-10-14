@@ -5,6 +5,14 @@ A clean, fast, **Vercel-deployed** developer portfolio featuring **language swit
 
 ## 🎬 Live Demos 
 
+![Image](https://github.com/user-attachments/assets/1b05e1e2-9cfa-4c3b-b9ea-69e807ef5c75)
+
+![Image](https://github.com/user-attachments/assets/803f90a0-f6ac-4987-8344-c94384850592)
+
+![Image](https://github.com/user-attachments/assets/d872ab68-1870-4e51-bac1-3947c3ad219d)
+
+![Image](https://github.com/user-attachments/assets/93a85240-fc25-4972-ab9f-4d0925a1b787)
+
 ## ✨ Features
 
 - **Language toggle (EN/TR):** Simple state-based switch for all UI texts (nav, sections, hero lines).
