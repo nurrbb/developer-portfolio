@@ -72,6 +72,19 @@ To me, backend development is an invisible craft. Users may never see it, but th
       title: "Experience",
       items: [
         {
+      title: "Experience",
+      items: [
+        {
+          title: "Software Instructor | Yazılım Kids Academy",
+          role: "Software Instructor",
+          period: "Sept 2024 – Present",
+          description: `Leading a comprehensive technical curriculum for ages 10-17, covering Python fundamentals, Object-Oriented Programming (OOP), data processing (Pandas, NumPy), and advanced AI (ML, CNN, NLP).
+
+Deepening my technical problem-solving skills by translating complex algorithms—such as Linear Regression, Decision Trees, and Transformers (BERT/GPT)—into practical projects and executable business logic.
+
+Providing technical mentorship on end-to-end data-driven projects, including Airbnb price estimation models, sentiment analysis, and OOP-based AI Agent systems.`,
+        },
+        {
           title: "Getir X Patika.dev Bootcamp",
           role: "Backend Developer Trainee",
           period: "Mar 2025 – June 2025",
@@ -133,44 +146,54 @@ The project demonstrated skills in embedded programming, sensor integration, rea
       categories: [
         {
           title: "Backend Development",
-          skills: ["Java",
-            "Spring Boot",
-            "Spring WebFlux",
-            "Reactive Programming",
-            "R2DBC",
-            "RESTful APIs",
-            "Microservices",
-            "JWT Authentication",
-            "Observer Pattern"],
+          skills: [
+            "Java (Spring Boot 3)",
+            "Node.js (Express)",
+            "Spring WebFlux (Reactive)",
+            "R2DBC & Project Reactor",
+            "Golang",
+            "RESTful API Design",
+            "Microservices Architecture",
+            "JWT & Spring Security",
+            "Design Patterns"
+          ],
           icon: Code,
         },
-        {
-          title: "Databases",
-          skills: ["PostgreSQL",
-            "MySQL",
-            "Database Design",
-            "Query Optimization",
-            "Transaction Management",
-            "Soft Delete",
-            "Audit Logging"],
+       {
+          title: "Database & Caching",
+          skills: [
+            "PostgreSQL", 
+            "MySQL", 
+            "Redis (Caching)", 
+            "Database Design & Modeling", 
+            "Query Optimization", 
+            "Transaction Management", 
+            "Soft Delete & Audit Logging"
+          ],
           icon: Database,
         },
         {
           title: "Cloud & DevOps",
-          skills: ["AWS Certified", "Docker", "CI/CD", "Cloud Deployment", "Monitoring", "Containerization"],
+          skills: [
+            "AWS Certified (Cloud Practitioner)", 
+            "Docker & Containerization", 
+            "Apache Kafka (Event-Driven)", 
+            "CI/CD Pipelines", 
+            "Monitoring & Logging"
+          ],
           icon: Cloud,
         },
         {
           title: "Tools & Documentation",
-          skills: ["JUnit 5",
-            "Mockito",
+          skills: [
+            "JUnit 5 & Mockito",
             "Integration Testing",
-            "Exception Handling",
-            "Swagger/OpenAPI",
-            "Git",
+            "Global Exception Handling",
+            "Swagger / OpenAPI 3.0",
+            "Git & GitHub Actions",
             "Maven",
-            "IntelliJ IDEA",
-            "Postman"],
+            "Postman"
+          ],
           icon: Shield,
         },
       ],
@@ -224,12 +247,24 @@ Managed social responsibility projects including nursing home visits, orphanage 
           github: "https://github.com/nurrbb/libris",
         },
         {
+          title: "CleanBlog - Content Management",
+          description: "A RESTful CMS built with Node.js and Express. Handles dynamic content delivery and CRUD operations using MongoDB and EJS.",
+          tech: ["Node.js", "Express", "MongoDB", "EJS"],
+          github: "https://github.com/nurrbb/CleanBlog",
+        },
+        {
           title: "Airline Ticketing System",
           description:
             "Backend service for managing airlines, airports, routes, flights, and ticketing with Spring Boot and MySQL. Features credit card masking, soft delete, global exception handling, and standardized REST APIs for reliable airline operations.",
           tech: ["Spring Boot", "MySQL", "JWT", "REST API", "Maven", "JUnit"],
           github: "https://github.com/nurrbb/AirlineTicketingSystem",
         },
+        {
+          title: "PCAT - Photo Portfolio",
+          description: "An image management platform supporting asynchronous file uploads with Multer and cloud storage integration.",
+          tech: ["Node.js", "Express", "MongoDB", "Multer"],
+          github: "https://github.com/nurrbb/PCAT",
+        }
         {
           title: "Color Sorting System (Arduino)",
           description:
@@ -282,6 +317,16 @@ Managed social responsibility projects including nursing home visits, orphanage 
     experience: {
       title: "Deneyim",
       items: [
+{
+          title: "Yazılım Kids Academy",
+          role: "Yazılım Eğitmeni",
+          period: "Eylül 2024 – Günümüz",
+          description: `10-17 yaş grubuna yönelik; Python temelleri, Nesne Yönelimli Programlama (OOP), veri işleme (Pandas, NumPy) ve ileri seviye Yapay Zeka (ML, CNN, NLP) konularını kapsayan kapsamlı bir eğitim sürecini yönetiyorum.
+
+Regresyon modelleri, Karar Ağaçları ve Doğal Dil İşleme (Transformers, BERT) gibi karmaşık algoritmaların iş mantığını ve uygulama süreçlerini projeler üzerinden aktararak teknik çözüm üretme becerilerimi pekiştiriyorum.
+
+Öğrencilerime Airbnb fiyat tahmini, duygu analizi ve OOP tabanlı AI Agent sistemleri gibi uçtan uca veri odaklı projelerin geliştirilmesi süreçlerinde teknik mentorluk sağlıyorum.`,
+        },
         {
           title: "Getir x Patika.dev Bootcamp",
           role: "Backend Geliştirici Stajyeri",
@@ -344,47 +389,64 @@ Proje, gömülü programlama, sensör entegrasyonu, gerçek zamanlı işleme ve 
       categories: [
         {
           title: "Backend Geliştirme",
-          skills: ["Java",
-            "Spring Boot",
-            "Spring WebFlux",
-            "Reaktif Programlama",
-            "R2DBC",
-            "RESTful API'ler",
-            "Mikroservisler",
-            "JWT Kimlik Doğrulama",
-            "Observer (Gözlemci) Deseni"],
+          skills: [
+            "Java (Spring Boot 3)",
+            "Node.js (Express)",
+            "Spring WebFlux (Reaktif)",
+            "R2DBC & Project Reactor",
+            "Golang",
+            "RESTful API Tasarımı",
+            "Mikroservis Mimarisi",
+            "JWT & Spring Security",
+            "Tasarım Kalıpları (Design Patterns)"
+          ],
           icon: Code,
         },
         {
-          title: "Veritabanları",
-          skills: ["PostgreSQL", "MySQL", "Veritabanı Tasarımı", "Sorgu Optimizasyonu", "İşlem Yönetimi", "Soft Delete (Yumuşak Silme)",
-            "Audit Logging (Kayıt İzleme)"],
+          title: "Veritabanları ve Önbellekleme",
+          skills: ["PostgreSQL", 
+            "MySQL", 
+            "Redis (Caching)", 
+            "Veritabanı Tasarımı & Modelleme", 
+            "Sorgu Optimizasyonu", 
+            "Transaction Management", 
+            "Soft Delete & Audit Logging" 
+          ],
           icon: Database,
         },
         {
           title: "Bulut ve DevOps",
-          skills: ["AWS Sertifikası", "Docker", "CI/CD", "Bulut Dağıtımı", "İzleme", "Konteynerleştirme"],
+          skills: [
+            "AWS Sertifikalı (Cloud Practitioner)", 
+            "Docker & Konteynerleştirme", 
+            "Apache Kafka (Event-Driven)", 
+            "CI/CD Pipeline Süreçleri", 
+            "Cloud Deployment", 
+            "Monitoring & Logging"
+          ],
           icon: Cloud,
         },
         {
           title: "Araçlar ve Dokümantasyon",
-          skills: ["JUnit 5",
-            "Mockito",
+          skills:[
+            "JUnit 5 & Mockito",
             "Entegrasyon Testleri",
-            "Exception Handling (Hata Yönetimi)",
-            "Swagger / OpenAPI",
-            "Git",
+            "Global Exception Handling",
+            "Swagger",
+            "Git & GitHub",
             "Maven",
-            "IntelliJ IDEA",
-            "Postman"],
+            "Postman"
+          ],
           icon: Shield,
         },
       ],
       certifications: [
-        "AWS Certified Cloud Practitioner",
-        "Docker: Temelden İleri Seviyeye",
+        "AWS Certified Cloud Practitioner (Amazon)",
+        "Docker: Temelden İleri Seviyeye (Techcareer.net)",
         "Mikroservislerle Modern Yazılım Geliştirme (Techcareer.net)",
+        "Node.js ile Geliştirme Programı (Techcareer.net)",
         "Siber Güvenlik Online Eğitim Programı (Bilişim Vadisi)",
+        "Java ile Nesne-Merkezli Programlamaya Giriş",
       ],
       languages: [
         { language: "Türkçe", level: "Ana Dil" },
@@ -428,11 +490,27 @@ STEM alanlarında cinsiyet eşitliğini desteklemek amacıyla düzenlediğimiz �
           demo: "#",
         },
         {
+          title: "CleanBlog - Blog Yönetim Sistemi",
+          description:
+            "Node.js ve Express.js kullanılarak geliştirilmiş, RESTful mimariye sahip kapsamlı bir içerik yönetim sistemi. MongoDB ile veri kalıcılığı sağlanırken, EJS şablon motoru ile dinamik sayfa yönetimi, CRUD operasyonları ve modern web standartlarına uygun fonksiyonel bir blog altyapısı sunar.",
+          tech: ["Node.js", "Express.js", "MongoDB", "EJS", "REST API", "Bootstrap"],
+          github: "https://github.com/nurrbb/CleanBlog",
+          demo: "#",
+        },
+        {
           title: "Havayolu Biletleme Sistemi",
           description:
             "Spring Boot ve MySQL kullanılarak geliştirilmiş, havayolu şirketleri, havalimanları, rotalar, uçuşlar ve biletleme süreçlerini yöneten backend servisi. Güvenli bilet alımları için kredi kartı maskeleme, veri bütünlüğü için soft delete, global hata yönetimi ve standartlaştırılmış REST API’leri ile güvenilir havayolu operasyonlarını destekler.",
           tech: ["Spring Boot", "MySQL", "JWT", "REST API", "Maven", "JUnit"],
           github: "https://github.com/nurrbb/AirlineTicketingSystem",
+          demo: "#",
+        },
+        {
+          title: "PCAT - Fotoğraf Portfolyo Uygulaması",
+          description:
+            "Node.js ve Express mimarisi üzerine kurulu, kullanıcıların görsel içeriklerini yükleyebildiği ve yönetebildiği bir portfolyo uygulaması. Multer ile dosya yükleme süreçleri, MongoDB (Mongoose) ile dinamik veri yönetimi ve asenkron operasyonlar kullanılarak geliştirilmiş, kullanıcı dostu bir galeri deneyimi sağlar.",
+          tech: ["Node.js", "Express.js", "MongoDB", "Multer", "Cloudinary", "EJS"],
+          github: "https://github.com/nurrbb/PCAT",
           demo: "#",
         },
         {
