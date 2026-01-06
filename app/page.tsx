@@ -20,6 +20,10 @@ import {
   Database,
   Cloud,
   Shield,
+  Wrench,
+  Layout,
+  Search,
+  Wrench as ToolIcon
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -69,9 +73,6 @@ Building clean, reliable, and scalable backend solutions isn’t just a job for 
 To me, backend development is an invisible craft. Users may never see it, but their experience depends entirely on it. I take pride in ensuring it just works – silently, seamlessly, and without excuses.`,
     },
     experience: {
-      title: "Experience",
-      items: [
-        {
       title: "Experience",
       items: [
         {
@@ -159,7 +160,7 @@ The project demonstrated skills in embedded programming, sensor integration, rea
           ],
           icon: Code,
         },
-       {
+        {
           title: "Database & Caching",
           skills: [
             "PostgreSQL", 
@@ -220,8 +221,7 @@ The project demonstrated skills in embedded programming, sensor integration, rea
  Within UP School’s mission to close the gender and talent gap in tech, I support learners in building key soft skills such as mindful awareness, resilience, time and energy management, genuine appreciation, growth mindset, and FeedForward practices. 
 
  These trainings are integrated into UP School’s holistic curriculum to equip students with the confidence, adaptability, and proactive thinking essential for thriving as future technology leaders.`,
-        }
-        ,
+        },
         {
           title: "IEEE Çukurova ",
           role: "Board Member & Team Lead",
@@ -245,12 +245,14 @@ Managed social responsibility projects including nursing home visits, orphanage 
             "Advanced library management system with dynamic scoring, reactive book availability, and secure user management. Built with Java 21, Spring Boot 3, PostgreSQL, and WebFlux, featuring Docker deployment, soft delete, audit logging, and a comprehensive statistics dashboard.",
           tech: ["Spring Boot", "PostgreSQL", "WebFlux", "JWT", "Docker", "Swagger"],
           github: "https://github.com/nurrbb/libris",
+          demo: "#"
         },
         {
           title: "CleanBlog - Content Management",
           description: "A RESTful CMS built with Node.js and Express. Handles dynamic content delivery and CRUD operations using MongoDB and EJS.",
           tech: ["Node.js", "Express", "MongoDB", "EJS"],
           github: "https://github.com/nurrbb/CleanBlog",
+          demo: "#"
         },
         {
           title: "Airline Ticketing System",
@@ -258,18 +260,21 @@ Managed social responsibility projects including nursing home visits, orphanage 
             "Backend service for managing airlines, airports, routes, flights, and ticketing with Spring Boot and MySQL. Features credit card masking, soft delete, global exception handling, and standardized REST APIs for reliable airline operations.",
           tech: ["Spring Boot", "MySQL", "JWT", "REST API", "Maven", "JUnit"],
           github: "https://github.com/nurrbb/AirlineTicketingSystem",
+          demo: "#"
         },
         {
           title: "PCAT - Photo Portfolio",
           description: "An image management platform supporting asynchronous file uploads with Multer and cloud storage integration.",
           tech: ["Node.js", "Express", "MongoDB", "Multer"],
           github: "https://github.com/nurrbb/PCAT",
-        }
+          demo: "#"
+        },
         {
           title: "Color Sorting System (Arduino)",
           description:
             "Automated industrial sorting system using Arduino Nano and TCS3200 color sensors. Implements real-time color detection, classification algorithms, and servo motor control for precise object positioning.",
           tech: ["Arduino", "C++", "Sensors", "Servo Control", "Real-time Processing"],
+          github: "#",
           demo: "https://drive.google.com/drive/folders/1Nr52EKa43xApjjxBK-IsSKV1HU4VVZkA",
         },
       ],
@@ -317,7 +322,7 @@ Managed social responsibility projects including nursing home visits, orphanage 
     experience: {
       title: "Deneyim",
       items: [
-{
+        {
           title: "Yazılım Kids Academy",
           role: "Yazılım Eğitmeni",
           period: "Eylül 2024 – Günümüz",
@@ -462,7 +467,7 @@ Proje, gömülü programlama, sensör entegrasyonu, gerçek zamanlı işleme ve 
           period: "2025 - Devam Ediyor",
           description: `Kadınları teknoloji dünyasında daha güçlü kılmayı hedefleyen bir eğitim teknolojileri girişimi olan UP School’da Soft Skill Mentoru olarak görev yapıyorum. Bu kapsamda, katılımcıların kişisel gelişimlerini, duygusal zekalarını ve profesyonel yetkinliklerini artırmaya yönelik interaktif oturumlar yürütüyorum.
 
-Mindful farkındalık, dayanıklılık, zaman ve enerji yönetimi, gelişim odaklı düşünce ve geleceğe yönelik geri bildirim (FeedForward) gibi konulara odaklanan bu eğitimler, UP School’un bütünsel öğrenme yaklaşımının önemli bir parçasını oluşturuyor.
+Mindful farkındalık, dayanıklılık, zaman ve enerji yönetimi, gelişim odaklı düşünce ve geleceğe yönelik geri bildirim (FeedForward) gibi konulara odaklanan bu eğitimler, UP School’en bütünsel öğrenme yaklaşımının önemli bir parçasını oluşturuyor.
 
 Amacım, katılımcıların teknoloji sektöründe kendilerine güvenen, uyum kabiliyeti yüksek ve proaktif bireyler olarak ilerlemelerine katkıda bulunmak.`,
         },
